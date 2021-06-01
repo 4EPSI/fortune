@@ -4,3 +4,135 @@
 	overflow: hidden;
     padding-top: 80px;
 }
+.fortune {
+	&-content {
+		position: relative;
+	}
+	&-btn {
+		height: 47px;
+		background-color: #ffc400;
+		color: #212121;
+	}
+	&-angle {
+		// transform: translateX(-50%);
+		// // top: 0;
+		// z-index: 1;
+		// height: 50px;
+		// position: absolute;
+		// left: 50%;
+		// transform: translateX(-50%);
+		// top: 0;
+		// z-index: 1;
+		// height: 50px;
+		transform: translateX(157px);
+		top: 0;
+		z-index: 1;
+		height: 50px;
+		position: absolute;
+		left: 0;
+	}
+
+	&-img {
+		transform-origin: 50% 50%;
+		transform: translate(40px, 42px) rotate(380deg);
+		position: absolute;
+		top: 0;
+		left: 0;
+		// transform: translate(40px,42px);
+		height: 270px;
+		width: 270px;
+		line-height: 16px;
+		img {
+			height: 280px;
+  	  		width: 280px;
+		}
+	}
+}
+.prize_val[data-v-1c8bc458]:first-child {
+	transform: translate(135px) rotate(90deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(2) {
+    transform: translate(178px,5px) rotate(110deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(3) {
+    transform: translate(217px,28px) rotate(135deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(4) {
+    transform: translate(244px,60px) rotate(147deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(5) {
+    transform: translate(258px,101px) rotate(163deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(6) {
+    transform: translate(261px,148px) rotate(189deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(7) {
+    transform: translate(245px,187px) rotate(213deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(8) {
+    transform: translate(218px,221px) rotate(228deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(9) {
+    transform: translate(180px,242px) rotate(245deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(10) {
+    transform: translate(137px,250px) rotate(270deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(11) {
+    transform: translate(92px,243px) rotate(290deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(12) {
+    transform: translate(52px,229px) rotate(308deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(13) {
+    transform: translate(26px,191px) rotate(326deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(14) {
+    transform: translate(13px,147px) rotate(350deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(15) {
+    transform: translate(11px,103px) rotate(369deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(16) {
+    transform: translate(24px,64px) rotate(390deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(17) {
+    transform: translate(54px,29px) rotate(410deg);
+}
+.prize_val[data-v-1c8bc458]:nth-child(18) {
+    transform: translate(90px,6px) rotate(430deg);
+}
+
+
+
+.prize_val[data-v-1c8bc458] {
+	color: #ffc400;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform-origin: left;
+}
+#weel[data-v-1c8bc458] {
+	height: 350px;
+    width: 350px;
+}
+// .wheel[data-v-1c8bc458], .wheel_angle[data-v-1c8bc458] {
+//     position: absolute;
+//     left: 50%;
+// }
+// .wheel[data-v-1c8bc458] {
+//     height: 280px;
+//     width: 280px;
+//     padding: 0;
+//     transform: translate(-50%,-50%);
+//     top: 50%;
+// }
+// .deposit, .wheel {
+//     padding: 20px 0;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     width: 100%;
+// }
